@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BILL</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="bf">
+      <h2>BILLING FORM</h2>
+    </div>
+    <form class="bunch1">
+      <fieldset>
+        <legend>STEP 1: YOUR DETAILS</legend>
+        <div class="container">
+          <label for="text1">NAME</label>
+          <input
+            type="text"
+            name="text1"
+            id="text1"
+            value="First  and Last name"
+          />
+        </div>
+        <div class="container">
+          <label for="email1">EMAIL</label>
+          <input type="email" value="example@domain.com" id="email1" />
+        </div>
+        <div class="container">
+          <label for="phone1">PHONE</label>
+          <input type="text" value="Eg. +4475000000000" id="phone1" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>STEP 2: DELIVERY ADDRESS</legend>
+        <div class="container">
+          <label for="textarea1">ADDRESS</label>
+          <textarea id="textarea1" rows="2" cols="20"></textarea>
+        </div>
+        <div class="container">
+          <label for="code">POST CODE</label>
+          <input type="text" id="code" />
+        </div>
+        <div class="container">
+          <label for="country">COUNTRY</label>
+          <input type="text" id="country" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>STEP 3: CARD DETAILS</legend>
+        <div class="container">
+          <label>CARD TYPE</label><br />
+          <div class="container1">
+            <label id="radio1">VISA</label
+            ><input type="radio" id="radio1" name="radio1" value="radio1" />
+            <label id="radio2">AmEx</label
+            ><input type="radio" id="radio2" name="radio1" value="radio2" />
+            <label id="radio3">Mastercard</label
+            ><input type="radio" id="radio3" name="radio1" value="radio3" />
+            <input type="reset" value="Reset" / style="border-radius: 10px;">
+          </div>
+        </div>
+        <div class="container">
+          <label for="number1">CARD NUMBER</label>
+          <input type="text" id="number1" />
+        </div>
+
+        <div class="container">
+          <label for="sc">SECURITY CODE</label>
+          <input type="text" id="sc" />
+        </div>
+        <div class="container">
+          <label for="text1">NAME ON CARD</label>
+          <input
+            type="text"
+            name="text1"
+            id="text1"
+            value="Exact name as on the card"
+          />
+        </div>
+      </fieldset>
+      <br />
+      <div class="button">
+        <input type="button" value="BUY IT" id="btn" />
+      </div>
+    </form>
+  </body>
+</html>
