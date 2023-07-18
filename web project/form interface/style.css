@@ -1,0 +1,35 @@
+.container {
+  border: 1px solid black;
+  margin: 4px;
+  padding: 4px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(210, 216, 224);
+}
+.container1 {
+  float: right;
+}
+
+#bf {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+body {
+  /* background-color: aquamarine; */
+  border: 1px solid red;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+#btn {
+  border-radius: 12px;
+  height: 30px;
+  width: 70px;
+}
